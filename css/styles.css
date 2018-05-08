@@ -1,3 +1,31 @@
-h1 {
-  color: blue;
+header {
+  display: flex;
+  border-bottom: 1px black solid;
+  font-family: Verdana;
+  Font-size: 14px;
+  Font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.logo span {
+  padding-left: 15px;
+}
+
+.logo {
+  display: inline-flex;
+  color: mediumaquamarine;
+  align-items: center;
+  padding-left: 15px;
+  margin: 0px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+}
+
+nav {
+  diplay: flex;
+  justify-content: space-around;
 }
