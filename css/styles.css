@@ -1,3 +1,8 @@
+body {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 header {
   display: flex;
   border-bottom: 1px black solid;
@@ -5,7 +10,9 @@ header {
   Font-size: 14px;
   Font-weight: bold;
   padding-bottom: 10px;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 3%;
 }
 
 .logo span {
@@ -13,6 +20,7 @@ header {
 }
 
 .logo {
+  display: flex;
   color: mediumaquamarine;
   align-items: center;
   padding-left: 15px;
@@ -23,4 +31,32 @@ header {
   text-decoration: none;
   color: black;
   text-decoration: underline;
+  padding: 0px 10px;
+}
+
+div {
+  border: 1px black solid;
+}
+
+.main.container {
+  background-color: black;
+  display: inline-flex;
+  border: 1px black solid;
+  width: 900px;
+  align-items: space-between;
+}
+
+.column.large {
+  display: flex;
+  width: 630px;
+  border: 1px black solid;
+  }
+
+.column.medium {
+  display: flex;
+  width: 340px;
+}
+
+.column.small {
+  width: 200px;
 }
