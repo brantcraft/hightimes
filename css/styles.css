@@ -38,25 +38,27 @@ div {
   border: 1px black solid;
 }
 
-.main.container {
-  background-color: black;
-  display: inline-flex;
+.main-container {
+  display: flex;
   border: 1px black solid;
-  width: 900px;
-  align-items: space-between;
+  width: 100%;
+  align-items: space-around;
+  margin-top: 30px;
 }
 
-.column.large {
-  display: flex;
+.column-large {
   width: 630px;
   border: 1px black solid;
+  margin: 0 12px;
   }
 
-.column.medium {
-  display: flex;
+.column-medium {
   width: 340px;
+  margin: 0 12px;
 }
 
-.column.small {
+.column-small {
   width: 200px;
+  margin: 0 12px;
+
 }
